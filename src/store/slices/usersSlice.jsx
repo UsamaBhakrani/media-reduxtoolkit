@@ -4,8 +4,10 @@ const usersSlice = createSlice({
   name: "users",
   initialState: {
     data: [],
+    isLoading: false,
+    error: null,
   },
   reducers: {},
 });
 
-export const usersReducer = usersSlice.reducer
+export const usersReducer = usersSlice.reducer;
